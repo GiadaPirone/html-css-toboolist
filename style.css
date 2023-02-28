@@ -20,11 +20,30 @@ header{
 }
 
 .button{
-    height: 80px;
+    height: 60px;
     margin: 50px 200px 10px 200px;
+    padding: 20px 0px 5px 30px;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     }
+
+#button1{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px;
+    background-color:#47ADF1 ;
+    color: white;
+}    
+
+#button2{
+    width: 110px;
+    height: 50px;
+    border-radius: 10px;
+    border: 5px;
+    background-color: rgb(223, 215, 215);
+    color: #47ADF1;
+}  
 
 #corpo{
     height: 500px; /* da togliere successivamente */
