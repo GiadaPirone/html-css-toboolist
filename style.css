@@ -1,0 +1,16 @@
+header{
+    height: 80px;
+    background-color: rgb(252, 211, 211);
+    
+    
+}
+
+#logo{
+    padding: 15px;
+    display: inline-block; 
+}
+
+#titolo{
+    display: inline-block;
+    margin: 0 auto;
+}
