@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(201, 200, 200);
+    background-color: #F6F8F9;
 }
 
 header{
@@ -48,6 +48,7 @@ header{
 #corpo{
     height: 500px; /* da togliere successivamente */
     margin: 5px 200px 10px 200px;
+    padding: 20px 0px 0px 30px;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
 }
