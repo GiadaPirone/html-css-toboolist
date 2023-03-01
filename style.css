@@ -12,7 +12,6 @@ header{
     height: 80px;
     background-color: rgb(255, 255, 255);
     
-    
 }
 
 #logo{
@@ -22,7 +21,8 @@ header{
 
 #titolo{
     display: inline-block;
-    margin: 0 auto;
+    position: absolute;
+    /* correzione per centrare il titolo, usato position absolute */
 }
 
 .button{
@@ -30,6 +30,7 @@ header{
     margin: 50px 200px 10px 200px;
     padding: 20px 0px 5px 30px;
     border-radius: 10px;
+    
     background-color: rgb(255, 255, 255);
     }
 
@@ -38,6 +39,7 @@ header{
     height: 50px;
     border-radius: 10px;
     border: 0px;
+    cursor: pointer;/*per far si che ci sia il cursore*/
     background-color:#47ADF1 ;
     color: white;
 }    
@@ -46,6 +48,7 @@ header{
     width: 110px;
     height: 50px;
     border-radius: 10px;
+    cursor: pointer; /*per far si che ci sia il cursore*/
     border: 5px; 
     /* non mi fa inserire il border e il colore annesso */
     background-color: rgb(223, 215, 215);
@@ -63,14 +66,25 @@ header{
 .v{
     display: inline-block;
     color: #6EC5B0;
+    height: 15px;
+    width: 15px;
+    border: 1px solid green;
+    border-radius: 15px;
+    vertical-align:baseline;
     padding: 5px;
-    /* border: 5px; non funziona */
+
+    /* border: 5px; non funziona parovare a dare grandezza e altezza e poi border: 1px solid */
 }
 
 .x{
     display: inline-block;
     color: red;
     padding: 5px;
+    height: 15px;
+    width: 15px;
+    border: 1px solid red;
+    border-radius: 15px;
+    vertical-align:baseline;
     /* border: 5px; non funziona */
 }
 
